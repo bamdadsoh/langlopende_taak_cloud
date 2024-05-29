@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: bamdadsoh/langlopende_taak_cloud:latest
+    image: bamdad1/langlopende_taak_cloud:latest
     ports:
       - "80:80"
     depends_on:
